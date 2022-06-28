@@ -1,0 +1,14 @@
+{
+    "commandError": "An error occurred while executing the command!",
+
+    "commandName": "guess",
+    "commandDesc": "Guess a random person from the server by it's profile picture",
+
+    "guessEmbedTitle": "Guess that member!",
+    "guessedEmbedTitle": "It was",
+    
+    "correctAnswer": "you're correct! It was",
+    "noCorrectAnswer": "Nobody had the right answer. It was",
+
+    "credits": "developed by Nils#7168"
+}
