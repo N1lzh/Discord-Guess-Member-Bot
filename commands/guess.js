@@ -17,8 +17,7 @@ module.exports = {
         let randMember;
 
         do {
-            randMember = guildMembers.random()
-            await console.log(format.test(randMember.displayName));
+            randMember = guildMembers.random();
         } while (format.test(randMember.displayName));
 
         timeInSeconds = config.guessTime;
