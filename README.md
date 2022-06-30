@@ -7,6 +7,10 @@ A discord bot with a command where you have to guess a member by it's profile pi
 - Execute the guess game with the /guess command (standard)
 
 
+## Requirements:
+- [Node.js](https://nodejs.org/en/download/)
+
+
 ## Installation:
 1. Setup a application in the discord developer portal, if you don't know how ~~learn it~~ visit [this link][1] and read the chapter [*setting up a bot application*][2] and [*#Adding your bot to server*][3].
 2. Next you need your Bot's token as well as it's client id. You will get both in the developer portal under your application. You will find your Token in the *bot* section. Here you will have to reset it first to copy it. Your client id will be in the *OAuth2* section under *Client Information*.
@@ -23,6 +27,9 @@ A discord bot with a command where you have to guess a member by it's profile pi
 
 ## Credits
 If you're using my code I would be very pleased if you leave the `credits` variable in the [language.json](../main/language.json) as well as in the actual code. I know the code isn't very complicated but it's still my work you're downloading, so please respect that.
+
+## Disclaimer:
+I only executed the bot on my windows computer. I can't help you with hosting on an external server. Also if you're on Linux you will have to rename the `.bat` files to `.sh`.
 
 
 ## Feedback
