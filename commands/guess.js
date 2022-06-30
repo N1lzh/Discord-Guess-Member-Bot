@@ -10,20 +10,23 @@ module.exports = {
 
 
 	async execute(interaction) {
-
-        console.log()
-        
 		
         const guildMembers = await interaction.guild.members.fetch();
-        const randMember = guildMembers.random();
+
+        const format = /[^\x00-\x7F]/g;
+        let randMember;
+
+        do {
+            randMember = guildMembers.random()
+            await console.log(format.test(randMember.displayName));
+        } while (format.test(randMember.displayName));
 
         timeInSeconds = config.guessTime;
-        console.log(timeInSeconds);
 
         const member = randMember.displayName;
-        const number = (interaction.createdTimestamp / 1000) + timeInSeconds;
+        const number = (interaction.createdTimestamp / 1000) + timeInSeconds + 2;
         const countdown = number | 0;
-        
+
         const guessEmbed = new MessageEmbed()
             .setColor("GREEN")
             .setTitle(language.guessEmbedTitle)
