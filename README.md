@@ -24,7 +24,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 ### Leaderboard
 1. To setup the leaderboard firstly set the leaderboard variable in the [config.json](../main/config.json) to true.
 2. Then restart your bot and run the /guess command one time.
-3. Now your Bot will restart and a leaderboard file was created. Your server member will now be able to use the /leaderboard and /rank command.
+3. Now  a leaderboard file will be created. Your server member will now be able to use the /leaderboard and /rank command.
 
 
 ## Customization:
