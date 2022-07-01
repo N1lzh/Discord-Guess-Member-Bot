@@ -1,5 +1,10 @@
 {
     "token": "insert token here",
     "clientID": "insert client id here",
-    "guessTime": 15
+    
+    "guessTime": 15,
+    
+    "leaderboard": false,
+    "leaderboardLength": 9,
+    "leaderboardInline": false
 }
