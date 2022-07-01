@@ -5,6 +5,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 ## Features:
 - A fully functional and easy to setup game bot for your discord server
 - Execute the guess game with the /guess command (standard)
+- A leaderboard which you can enable in the config. After this you have to execute the /guess command one time to setup the leaderboard for the server.
 
 
 ## Requirements:
@@ -22,7 +23,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 ## Customization:
 * You can edit the time someone will be able to guess the member in [config.json](../main/config.json) via the `guessTime` variable.
 * You can edit the [language.json](../main/language.json) file to match the command to your language.
-###### WARNING: If you edit the `commandName` or `commandDesc` variable you will have to run the [deploy-commands.bat](../main/deploy-commands.bat) file first to update the command
+###### WARNING: If you edit the command names, command descriptions or command options variables you will have to run the [deploy-commands.bat](../main/deploy-commands.bat) file first to update the command
 
 
 ## Credits
