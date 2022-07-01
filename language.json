@@ -1,14 +1,34 @@
 {
     "commandError": "An error occurred while executing the command!",
+    "featureNotAvailable": "This Feature isn't available on this server!",
 
-    "commandName": "guess",
-    "commandDesc": "Guess a random person from the server by it's profile picture",
+    "guessCommandName": "guess",
+    "guessCommandDesc": "Guess a random person from the server by it's profile picture",
 
     "guessEmbedTitle": "Guess that member!",
     "guessedEmbedTitle": "It was",
     
+    "leaderboardSetup": "Leaderboard was setup and Bot was restarted, please write /guess again to start playing!",
+    "leaderboardIsntSetup": "The Leaderboard isn't setted up, please run /guess first.",
+
     "correctAnswer": "you're correct! It was",
     "noCorrectAnswer": "Nobody had the right answer. It was",
+
+    "lbCommandName": "leaderboard",
+    "lbCommandDesc": "View the best guesser on the server",
+
+    "lbEmbedTitle": "Leaderboard",
+    "lbEmbedDesc": "The best guesser of the server",
+    "lbEmbedLevel": "Level",
+
+    "rankCommandName": "rank",
+    "rankCommandDesc": "View your guessing rank on the server",
+    "rankCommandUserOptionDesc": "Select a user",
+
+    "rankEmbedLevel": "Level",
+    "rankEmbedPlace": "Place",
+
+    "targetNotAvailable": "This Person has no rank!",
 
     "credits": "developed by Nils#7168"
 }
