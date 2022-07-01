@@ -24,6 +24,7 @@ module.exports = {
 
         do {
             randMember = guildMembers.random();
+
         } while (isASCII(randMember.displayName, true) == false);
 
         timeInSeconds = config.guessTime;
