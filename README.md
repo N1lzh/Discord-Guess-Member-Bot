@@ -5,7 +5,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 ## Features:
 - A fully functional and easy to setup game bot for your discord server
 - Execute the guess game with the /guess command (standard)
-- A leaderboard which you can enable in the config. After this you have to execute the /guess command one time to setup the leaderboard for the server.
+- A leaderboard to track the best guesser from your server
 
 
 ## Requirements:
@@ -20,6 +20,11 @@ A discord bot with a command where you have to guess a member by it's profile pi
 3. Now you have to insert both the token and the client id in the [config.json](../main/config.json).
 4. After this you have to register the commands. Do this by executing the [deploy-commands.bat](../main/deploy-commands.bat).
 5. Lastly start the bot by running the [start.bat](../main/start.bat) file. Now you're ready to go. Whenever you want the bot to be online just start the bot via the [start.bat](../main/start.bat) file.
+
+### Leaderboard
+1. To setup the leaderboard firstly set the leaderboard variable in the [config.json](../main/config.json) to true.
+2. Then restart your bot and run the /guess command one time.
+3. Now your Bot will restart and a leaderboard file was created. Your server member will now be able to use the /leaderboard and /rank command.
 
 
 ## Customization:
