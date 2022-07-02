@@ -34,7 +34,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 
 
 ## Credits
-If you're using my code I would be very pleased if you leave the `credits` variable in the [language.json](../main/language.json) as well as in the actual code. I know the code isn't very complicated but it's still my work you're downloading, so please respect that. If you're planning on mentioning my project on any social media please link the github repo and message me via an issue.
+If you're using my code I would be very pleased if you leave the `credits` variable in the [language.json](../main/language.json) as well as in the actual code. I know the code isn't very complicated but it's still my work you're downloading, so please respect that. If you're planning on mentioning my project on any social media (for example: Youtube) please link the github repo and message me via an [issue](../../issues).
 
 ## Disclaimer:
 I only executed the bot on my windows computer. I can't help you with hosting on an external server. Also if you're on Linux you will have to rename the `.bat` files to `.sh`.
