@@ -10,3 +10,8 @@ module.exports = {
 		client.user.setActivity("guessing", { type: ActivityType.Playing });
 	},
 };
+
+
+
+
+// This file was written by N1lzh; https://github.com/N1lzh
