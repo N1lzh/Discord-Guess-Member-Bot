@@ -5,7 +5,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 ## Features:
 - A fully functional and easy to setup game bot for your discord server
 - Execute the guess game with the /guess command (standard)
-- A leaderboard to track the best guesser from your server
+- A leaderboard to track the best guesser from your server (optional)
 
 
 ## Requirements:
