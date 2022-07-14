@@ -9,7 +9,7 @@ A discord bot with a command where you have to guess a member by it's profile pi
 
 
 ## Requirements:
-- [Node.js](https://nodejs.org/en/download/)
+- [Node.js](https://nodejs.org/en/download/) recommended: 16.14.0
 - Privileged Intents for your bot in the developer portal.
 
 
