@@ -32,7 +32,16 @@ module.exports = {
             .setFooter({text: `${language.credits}`})
  
         for(let i = 0; i < config.leaderboardLength && i < leaderboard.length; i++) {
-            leaderboardEmbed.addField(`${i + 1}. ${leaderboard[i].username}`, `${language.lbEmbedLevel} ${leaderboard[i].level}`, config.leaderboardInline)
+
+            let guildMember = await interaction.guild.members.fetch(leaderboard[i].memberID);
+
+            leaderboardEmbed.addField(
+                `${i + 1}. ${guildMember.displayName}`, 
+                `${language.lbEmbedLevel} ${leaderboard[i].level}`, 
+                config.leaderboardInline
+            )
+
+
         }
 
         await interaction.reply({embeds: [leaderboardEmbed]});

@@ -89,7 +89,6 @@ module.exports = {
     
                             let guildMember = {
                                 memberID: collected.first().author.id, 
-                                username: collected.first().author.username,
                                 level: 1
                             }
 
@@ -104,12 +103,6 @@ module.exports = {
                             
                             let guildMember = guildLeaderboard.data.find(x => x.memberID === collected.first().author.id)
 
-                            console.log(guildMember.username == collected.first().author.username)
-
-                            if(guildMember.username != collected.first().author.username){
-                                console.log("test");
-                                guildMember.username = collected.first().author.username;
-                            }
                             guildMember.level = guildMember.level + 1;
 
                             fs.writeFile(`${leaderboardPath}`, JSON.stringify (guildLeaderboard, null, 2), err => {
